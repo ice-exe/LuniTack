@@ -41,13 +41,13 @@ LunTack is a high-performance network simulation tool designed for educational a
 ### Command-Line Arguments
 Run LunTack directly from the terminal with the following options:
 ```bash
-python lunTack.py --ip <target_ip> --port <target_port> --duration <seconds> \
+python LunTack.py --ip <target_ip> --port <target_port> --duration <seconds> \
                   --threads <thread_count> --rate <packets_per_second> --payload <bytes>
 ```
 
 Example:
 ```bash
-python lunTack.py --ip 192.168.1.10 --port 80 --duration 60 --threads 10 --rate 200 --payload 1024
+python LunTack.py --ip 192.168.1.10 --port 80 --duration 60 --threads 10 --rate 200 --payload 1024
 ```
 
 ### Interactive Mode
@@ -58,7 +58,7 @@ If you do not provide arguments, LunTack will guide you through an interactive s
 ## Simulation Mode
 Enable simulation mode to test without sending packets:
 ```bash
-python lunTack.py --simulate
+python LunTack.py --simulate
 ```
 
 ---
