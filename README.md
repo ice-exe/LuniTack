@@ -1,9 +1,9 @@
 
-# 🌟 LunTack: The Ultimate Simulation Tool
+# 🌟 LuniTack: The Ultimate Simulation Tool
 
 ## 🚀 Powered by Lunity
 
-LunTack is a high-performance network simulation tool designed for educational and testing purposes. It allows users to simulate high network traffic scenarios with precise control over parameters like packet size, rate limit, and thread count. **Use responsibly and only in authorized environments.**
+LuniTack is a high-performance network simulation tool designed for educational and testing purposes. It allows users to simulate high network traffic scenarios with precise control over parameters like packet size, rate limit, and thread count. **Use responsibly and only in authorized environments.**
 
 ---
 
@@ -27,7 +27,7 @@ LunTack is a high-performance network simulation tool designed for educational a
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/ice-exe/LuniTack.git
-   cd LunTack
+   cd LuniTack
    ```
 
 2. **Install Required Libraries**:
@@ -39,26 +39,26 @@ LunTack is a high-performance network simulation tool designed for educational a
 
 ## Usage
 ### Command-Line Arguments
-Run LunTack directly from the terminal with the following options:
+Run LuniTack directly from the terminal with the following options:
 ```bash
-python LunTack.py --ip <target_ip> --port <target_port> --duration <seconds> \
+python LuniTack.py --ip <target_ip> --port <target_port> --duration <seconds> \
                   --threads <thread_count> --rate <packets_per_second> --payload <bytes>
 ```
 
 Example:
 ```bash
-python LunTack.py --ip 192.168.1.10 --port 80 --duration 60 --threads 10 --rate 200 --payload 1024
+python LuniTack.py --ip 192.168.1.10 --port 80 --duration 60 --threads 10 --rate 200 --payload 1024
 ```
 
 ### Interactive Mode
-If you do not provide arguments, LunTack will guide you through an interactive setup.
+If you do not provide arguments, LuniTack will guide you through an interactive setup.
 
 ---
 
 ## Simulation Mode
 Enable simulation mode to test without sending packets:
 ```bash
-python LunTack.py --simulate
+python LuniTack.py --simulate
 ```
 
 ---
@@ -86,7 +86,7 @@ python LunTack.py --simulate
 ---
 
 ## ⚠️ Disclaimer
-LunTack is intended for **educational and authorized testing purposes only**. Unauthorized use of this tool is illegal and unethical. The creators are not responsible for any misuse. Use with caution and responsibility!
+LuniTack is intended for **educational and authorized testing purposes only**. Unauthorized use of this tool is illegal and unethical. The creators are not responsible for any misuse. Use with caution and responsibility!
 
 ---
 
