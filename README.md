@@ -26,7 +26,7 @@ LunTack is a high-performance network simulation tool designed for educational a
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/LunTack.git
+   git clone https://github.com/ice-exe/LuniTack.git
    cd LunTack
    ```
 
