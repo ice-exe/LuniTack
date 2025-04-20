@@ -1,7 +1,7 @@
 
 # 🌟 LuniTack: The Ultimate Simulation Tool
 
-## 🚀 Powered by Lunity
+## 🚀 Powered by Spacie
 
 LuniTack is a high-performance network simulation tool designed for educational and testing purposes. It allows users to simulate high network traffic scenarios with precise control over parameters like packet size, rate limit, and thread count. **Use responsibly and only in authorized environments.**
 
